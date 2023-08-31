@@ -6,5 +6,5 @@ import com.springboot.clienteservice.model.ClienteEntity;
 
 public interface ClientService {
 
-    ClientResponseDTO createClient(ClientRequestDTO clientRequestDTO);
+    void createClient(ClientRequestDTO clientRequestDTO);
 }

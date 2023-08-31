@@ -4,26 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edd33527-5c14-439e-b131-aafa4646a832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/constant/ClientConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/controller/clientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/model/ClienteEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/model/mapper/ClientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/model/mapper/ClientMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/repository/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+    <list default="true" id="830f3e90-32bf-4abc-a5c5-13f2e29d0f88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/WalletResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/util/FeingClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/util/WalletAPIClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transfer-service/src/main/java/com/springboot/transferservice/model/TransferEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/dto/WalletRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/dto/WalletResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/model/WalletEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/model/mapper/WalletMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/model/mapper/WalletMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/repository/WalletRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wallet-service/src/main/java/com/springboot/walletservice/service/WalletServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/controller/clientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/controller/clientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/dto/ClientResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/model/ClienteEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/model/ClienteEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cliente-service/src/main/java/com/springboot/clienteservice/service/ClientServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wallet-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/wallet-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -51,7 +58,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2ULyXTDCgtQg2pc0haZL8z0W55J" />
+  <component name="ProjectId" id="2UlAWxvfmG1lIIAitYMnmG2eTwt" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -59,45 +66,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jimmy/Desktop/github/tallermvc-springboot/wallet-service/src/main/java/com/springboot/walletservice&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jimmy\Desktop\github\tallermvc-springboot\wallet-service\src\main\java\com\springboot\walletservice" />
-      <recent name="C:\Users\jimmy\Desktop\github\tallermvc-springboot\transfer-service\src\main\java\com\springboot\transferservice" />
-      <recent name="C:\Users\jimmy\Desktop\github\tallermvc-springboot\transaction-service\src\main\java\com\springboot\transactionservice" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.springboot.walletservice.dto" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="tallermvc-springboot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="tallermvc-springboot" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="edd33527-5c14-439e-b131-aafa4646a832" name="Changes" comment="" />
-      <created>1692733199297</created>
+      <changelist id="830f3e90-32bf-4abc-a5c5-13f2e29d0f88" name="Changes" comment="" />
+      <created>1693503832234</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692733199297</updated>
+      <updated>1693503832234</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

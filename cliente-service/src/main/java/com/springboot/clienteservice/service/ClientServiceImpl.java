@@ -20,7 +20,7 @@ public class ClientServiceImpl implements ClientService{
     private final ClientRepository clientRepository;
     private final ClientMapper clientMapper;//porque se va obtener un dto pero sera tranformado en entidad
     @Override
-    public ClientResponseDTO createClient(ClientRequestDTO clientRequestDTO) {
+    public void createClient(ClientRequestDTO clientRequestDTO) {
 
         if(Objects.isNull(clientRequestDTO))
             throw new RuntimeException("La Request no puede obtener un objeto vacio");
@@ -28,7 +28,7 @@ public class ClientServiceImpl implements ClientService{
         ClienteEntity client=clientMapper.toEntity(clientRequestDTO);
         client =clientRepository.save(client);
 
-        return clientMapper.toDto(client);
+
     }
 
 

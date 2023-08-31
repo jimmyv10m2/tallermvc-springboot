@@ -17,7 +17,7 @@ public class ClienteEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long clientId;
-    private Integer documentNumber;
+    private String documentNumber;
     private String phoneNumber;
     private String email;
 }
