@@ -1,8 +1,6 @@
 package com.springboot.clienteservice.service;
 
-import com.springboot.clienteservice.dto.ClientRequestDTO;
-import com.springboot.clienteservice.dto.ClientResponseDTO;
-import com.springboot.clienteservice.model.ClienteEntity;
+import com.springboot.clienteservice.dto.client.ClientRequestDTO;
 
 public interface ClientService {
 

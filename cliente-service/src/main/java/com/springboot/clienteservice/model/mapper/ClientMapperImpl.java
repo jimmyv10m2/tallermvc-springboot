@@ -1,11 +1,11 @@
 package com.springboot.clienteservice.model.mapper;
 
-import com.springboot.clienteservice.dto.ClientRequestDTO;
-import com.springboot.clienteservice.dto.ClientResponseDTO;
+import com.springboot.clienteservice.dto.client.ClientRequestDTO;
+import com.springboot.clienteservice.dto.client.ClientResponseDTO;
 import com.springboot.clienteservice.model.ClienteEntity;
 import org.springframework.stereotype.Component;
 
-//clase que se encarga de maperar los datos de los DTO a Entity y viceversa
+//clase que se encarga de mapear los datos de los DTO a Entity y viceversa
 @Component //es un bean
 public class ClientMapperImpl implements ClientMapper{
 

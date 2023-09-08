@@ -1,10 +1,11 @@
-package com.springboot.clienteservice.controller;
-import com.springboot.clienteservice.constant.ClientConstants;
-import com.springboot.clienteservice.dto.client.ClientRequestDTO;
-import com.springboot.clienteservice.service.ClientService;
+package com.springboot.walletservice.controller;
+
+import com.springboot.walletservice.dto.WalletRequestDTO;
+import com.springboot.walletservice.service.WalletService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -12,16 +13,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(value= ClientConstants.BASE_URI)
 @RequiredArgsConstructor
-public class clientController {
+@RequestMapping(value = "/api/v1/wallets")
+public class WalletController {
 
-    private final ClientService clientService;
-
+    private final WalletService walletService;
     @PostMapping
-    public ResponseEntity<Void>createClient (@Valid @RequestBody ClientRequestDTO requestDTO){
-        clientService.createClient(requestDTO);
+    public ResponseEntity<Void> createdWallet(@Valid @RequestBody WalletRequestDTO requestDTO){
+
+        walletService.createWallet(requestDTO);
+
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
-
 }

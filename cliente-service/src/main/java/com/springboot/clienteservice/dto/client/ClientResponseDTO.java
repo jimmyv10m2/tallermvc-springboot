@@ -1,4 +1,4 @@
-package com.springboot.clienteservice.dto;
+package com.springboot.clienteservice.dto.client;
 
 import lombok.Builder;
 

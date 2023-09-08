@@ -10,9 +10,13 @@ import org.springframework.validation.annotation.Validated;
 @Validated
 public class WalletMapperImpl implements WalletMapper{
 
-
     @Override
     public WalletResponseDTO toDto(@NotNull WalletEntity walletEntity) {
-        return null;
+
+        return WalletResponseDTO.builder()
+                .walletId(walletEntity.getWalletId())
+                .balance(walletEntity.getBalance())
+                .currency(walletEntity.getCurrency())
+                .build();
     }
 }

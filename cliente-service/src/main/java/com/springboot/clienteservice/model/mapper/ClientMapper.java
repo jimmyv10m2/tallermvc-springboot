@@ -1,7 +1,7 @@
 package com.springboot.clienteservice.model.mapper;
 
-import com.springboot.clienteservice.dto.ClientRequestDTO;
-import com.springboot.clienteservice.dto.ClientResponseDTO;
+import com.springboot.clienteservice.dto.client.ClientRequestDTO;
+import com.springboot.clienteservice.dto.client.ClientResponseDTO;
 import com.springboot.clienteservice.model.ClienteEntity;
 
 public interface ClientMapper {
